@@ -1,0 +1,40 @@
+.Resizer {
+    background: #a3acad;
+    /*opacity: 0.2;*/
+    z-index: 1;
+    box-sizing: border-box;
+    background-clip: padding-box;
+    display: flex;           /* Make the Resizer a flex container */
+    align-items: center;     /* Center content vertically */
+    justify-content: center;
+  }
+  
+  .Resizer::before {
+    content: '';
+    display: block;
+    width: 20px; /* Width of your icon */
+    height: 20px; /* Height of your icon */
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 6 30' width='1em' height='1em' class=' ui-svg-icon' fill='currentColor'%3E%3Cpath d='M0 0h2v2H0zm4 0h2v2H4zM0 4h2v2H0zm4 0h2v2H4zM0 8h2v2H0zm4 0h2v2H4zm-4 4h2v2H0zm4 0h2v2H4zm-4 4h2v2H0zm4 0h2v2H4zm-4 4h2v2H0zm4 0h2v2H4zm-4 4h2v2H0zm4 0h2v2H4zm-4 4h2v2H0zm4 0h2v2H4z'%3E%3C/path%3E%3C/svg%3E");    
+    
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+  }
+
+  .Resizer:hover {
+    transition: all 0.2s ease;
+    
+  }
+  
+  .Resizer.vertical {
+    width: 20px;
+    margin: 0 -5px;
+    border-left: 1px solid rgba(255, 255, 255, 0);
+    border-right: 1px solid rgba(255, 255, 255, 0);
+    cursor: ew-resize;
+  }
+  
+  .Resizer.vertical:hover {
+    border-left: 5px solid rgba(70, 130, 180, 0.5);
+    border-right: 5px solid rgba(70, 130, 180, 0.5);
+  }

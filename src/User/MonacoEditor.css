@@ -1,0 +1,26 @@
+
+.editor {
+  
+    width:70%;
+    float:left;
+    
+  }
+  .result {
+    
+    width:25%;
+    float:left;
+    
+  }
+  
+  
+  .editor, .result {
+    
+    margin: 10px; /* Spacing between columns */
+  }
+  
+  
+  .result {
+    max-width: 50%; /* Limit width to half of the container */
+    overflow: auto; /* Makes it scrollable if content is too large */
+  }
+  

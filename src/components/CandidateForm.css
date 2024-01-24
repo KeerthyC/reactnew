@@ -1,0 +1,56 @@
+.candidate-form {
+    background-color: #FFFFFF; /* Heineken white */
+    color: #008200; /* Heineken green */
+    padding: 20px;
+    max-width: 600px;
+    margin: 40px auto;
+}
+
+.form-container {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.disclaimer {
+    margin-top: 20px;
+    font-size: 0.8rem;
+}
+
+.resume-warning {
+    margin-top: 10px;
+    color: orange;
+    font-weight: bold;
+}
+.logo-container {
+    display: flex;
+    justify-content: center; /* Center logo horizontally */
+    padding: 10px; /* Add some space around the logo */
+}
+
+.logo {
+    max-width: 200px; /* Adjust width as needed */
+    height: auto; /* Maintain aspect ratio */
+    /* Add more styles as needed */
+}
+/* Override the thumb color */
+.MuiSlider-thumb {
+    color: #00A100; /* Heineken green */
+  }
+  
+  /* Override the track color */
+  .MuiSlider-track {
+    background-color: #00A100; /* Heineken green */
+  }
+  
+  /* Override the rail color, if needed */
+  .MuiSlider-rail {
+    background-color: #00A100; /* Some other color */
+  }
+.submit-button {
+    background-color: #00A100 !important; /* Heineken green */
+    color: white !important;
+}
+
+  

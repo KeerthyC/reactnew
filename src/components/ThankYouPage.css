@@ -1,0 +1,11 @@
+/* ThankYouPage.css */
+.thank-you-page {
+    height: 100vh;
+    background-color: #008200; /* Green background */
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

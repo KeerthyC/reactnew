@@ -1,0 +1,17 @@
+.star {
+    font-size: 2em;
+    color: grey;
+}
+
+.on .star {
+    color: #e3010f;
+}
+
+button {
+    background: none;
+    border: none;
+}
+
+button:focus {
+    outline: none;
+}

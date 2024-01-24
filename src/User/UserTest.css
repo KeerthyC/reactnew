@@ -1,0 +1,15 @@
+.form-check-label:hover {
+    background: #cccccc3d !important;
+}
+
+.timer-low {
+    /* Style when time is running out */
+   
+    animation: blinker 1s linear infinite;
+  }
+  
+  @keyframes blinker {
+    50% {
+      opacity: 0;
+    }
+  }
